@@ -19,3 +19,17 @@ This project is a web-based implementation of the classic Simon Game. The object
 1. Clone the repository to your local machine using:
    ```bash
    git clone <repository-url>
+
+## How to Play
+
+- Open the index.html file in your web browser.
+- Press any key to start the game.
+- Watch the sequence of button presses displayed by the game.
+- Click on the buttons to repeat the sequence in the same order.
+- If you successfully repeat the sequence, you will advance to the next level, and the sequence will become longer.
+- If you make a mistake, the game will end, and you can restart by pressing any key.
+
+## Customization
+
+The game is fully customizable using CSS. 
+You can modify the styles.css file to change the appearance and layout of the game interface.
