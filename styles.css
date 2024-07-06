@@ -8,7 +8,7 @@ body {
 #level-title {
   font-family: 'Press Start 2P', cursive;
   font-size: 3rem;
-  margin:  5%;
+  margin: 5%;
   color: #FEF2BF;
 }
 
@@ -16,7 +16,6 @@ body {
   display: block;
   width: 50%;
   margin: auto;
-
 }
 
 .btn {
@@ -52,4 +51,58 @@ body {
 .pressed {
   box-shadow: 0 0 20px white;
   background-color: grey;
+}
+
+/* For screens with a maximum width of 980px */
+@media only screen and (max-width: 980px) {
+  .container {
+    width: 60%; /* Increase the width */
+  }
+  .btn {
+    height: 180px;
+    width: 180px; /* Reduce the size of the buttons */
+    margin: 20px; /* Adjust the margin between buttons */
+  }
+}
+
+/* For screens with a maximum width of 768px (e.g., tablets) */
+@media only screen and (max-width: 768px) {
+  .container {
+    width: 70%; /* Increase the width */
+  }
+  .btn {
+    height: 150px;
+    width: 150px; /* Reduce the size of the buttons */
+    margin: 15px; /* Adjust the margin between buttons */
+  }
+}
+
+/* For screens with a maximum width of 480px (e.g., mobile phones) */
+@media only screen and (max-width: 480px) {
+  .container {
+    width: 90%; /* Take up almost the full width */
+  }
+  .btn {
+    height: 100px;
+    width: 100px; /* Reduce the size of the buttons further */
+    margin: 10px; /* Adjust the margin between buttons */
+  }
+  #level-title {
+    font-size: 2rem; /* Reduce the font size of the title */
+  }
+}
+
+/* For screens with a maximum width of 320px (e.g., very small mobile phones) */
+@media only screen and (max-width: 320px) {
+  .container {
+    width: 95%; /* Take up almost the full width */
+  }
+  .btn {
+    height: 80px;
+    width: 80px; /* Reduce the size of the buttons further */
+    margin: 5px; /* Adjust the margin between buttons */
+  }
+  #level-title {
+    font-size: 1.5rem; /* Reduce the font size of the title further */
+  }
 }
